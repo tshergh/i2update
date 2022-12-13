@@ -50,7 +50,7 @@
 		},
 		"LOG_CHANNEL": {
 			"description": "Database Channel",
-			"required": true
+			"required": false
 		}
 	},
 	"buildpacks": [
