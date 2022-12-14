@@ -43,16 +43,16 @@ class images(object):
     
     # DEFAULT THUMBNAIL ❌ NB: Thumbnails can’t be reused and can be only uploaded as a new file ❌
     PDF_THUMBNAIL = None                               #  "./images/thumbnail.jpeg"   PDF_THUMBNAIL & THUMBNAIL_URL must point same img
-    THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"   # to inc. meadia edit speed
+    THUMBNAIL_URL = "https://te.legra.ph/i2pdfbot-12-14"   # to inc. meadia edit speed
     
     # WELCOME IMAGE
     WELCOME_PIC = "https://te.legra.ph/i2pdfbot-12-14"
     
     # BANNED IMAGE
-    BANNED_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BANNED_PIC = "https://te.legra.ph/i2pdfbot-12-14"
     
     # BIG FILE
-    BIG_FILE = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BIG_FILE = "https://te.legra.ph/i2pdfbot-12-14"
 
 
 class settings(object):
@@ -74,7 +74,7 @@ class settings(object):
     
     DEFAULT_CAPT = os.environ.get("DEFAULT_CAPTION", False)
     
-    DEFAULT_LANG = os.environ.get("DEFAULT_LANG", "eng")  # use small letters
+    DEFAULT_LANG = os.environ.get("DEFAULT_LANG", "arb")  # use small letters
 
     MULTI_LANG_SUP = True if os.environ.get('MULTI_LANG_SUP', "True") == "True" else True
     
