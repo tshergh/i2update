@@ -1,6 +1,5 @@
 # fileName: configs/config.py
 # copyright ©️ 2021 nabilanavab
-
 import os
 
 class bot(object):
@@ -36,7 +35,7 @@ class group(object):
     # banned groups can't use this bot (Optional)
     BANNED_GROUP = list(set(int(x) for x in os.environ.get("BANNED_USERS", "").split()))
     
-    ONLY_GROUP_ADMIN = os.environ.get("ONLY_GROUP_ADMIN", False)
+    ONLY_GROUP_ADMIN = os.environ.get("ONLY_GROUP_ADMIN", False)  # to inc. meadia edit speed
 
 
 class images(object):
@@ -46,7 +45,7 @@ class images(object):
     THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"   # to inc. meadia edit speed
     
     # WELCOME IMAGE
-    WELCOME_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    WELCOME_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"  # WELCOME IMAGE
     
     # BANNED IMAGE
     BANNED_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
