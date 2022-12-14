@@ -46,7 +46,7 @@ class images(object):
     THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"   # to inc. meadia edit speed
     
     # WELCOME IMAGE
-    WELCOME_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    WELCOME_PIC = "https://te.legra.ph/i2pdfbot-12-14"
     
     # BANNED IMAGE
     BANNED_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
