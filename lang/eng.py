@@ -5,7 +5,7 @@ from configs.config import settings
 
 # PM WELCOME MESSAGE (HOME A, B, C, D...)
 HOME = {
-    "HomeA" : """Hey(hi) [{}](tg://user?id={})..!!
+    "HomeA" : """Hey [{}](tg://user?id={})..!!
 This bot will help you to do many things with PDFs. 🥳
 
 Some of the key features are:\n◍ `Convert images to PDF`
